@@ -8,10 +8,10 @@ import java.sql.Statement;
 
 public class Jdbc {
 
-    private static String DRIVER = "org.postgresql.Driver";
-    private static String URL = "jdbc:postgresql://mytabugenerator.cldjy3jrgsfz.us-west-2.rds.amazonaws.com:5432/postgres";
-    private static String USER = "DBAdmin";
-    private static String PASS = "gominola";
+    private static String DRIVER = "";
+    private static String URL = "";
+    private static String USER = "";
+    private static String PASS = "";
 
     static {
         try {
